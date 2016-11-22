@@ -1,0 +1,27 @@
+{
+  "name": "simple-react",
+  "version": "1.0.0",
+  "description": "Describe simple-react here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "video.js": "^5.12.6",
+    "videojs-contrib-hls": "^3.7.0-beta3",
+    "webworkify-webpack-dropin": "^1.1.9"
+  },
+  "devDependencies": {
+    "nwb": "0.12.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
