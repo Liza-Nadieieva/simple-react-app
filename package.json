@@ -16,7 +16,7 @@
     "react-dom": "^15.4.0",
     "video.js": "^5.12.6",
     "videojs-contrib-hls": "^3.7.0-beta3",
-    "webworkify-webpack-dropin": "^1.1.9"
+    "webworkify-webpack-dropin": "git+ssh://git@github.com/vpowers/webworkify-nwb.git#master-v1"
   },
   "devDependencies": {
     "nwb": "0.12.x"

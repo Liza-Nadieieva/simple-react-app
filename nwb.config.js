@@ -1,11 +1,11 @@
 module.exports = {
   type: 'react-app',
   webpack: {
-    devtool: 'cheap-source-map',
     extra: {
+      devtool: 'cheap-source-map',
       resolve: {
         alias: {
-          webworkify: 'webworkify-webpack-dropin'
+          webworkify: 'webworkify-nwb'
         }
       }
     }
